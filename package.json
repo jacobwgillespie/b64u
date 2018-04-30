@@ -1,0 +1,45 @@
+{
+  "name": "b64u",
+  "version": "2.0.0",
+  "description": "Tiny, lightweight module for encoding and decoding Base64 URLs",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/jacobwgillespie/b64u",
+  "repository": "git://github.com/jacobwgillespie/b64u.git",
+  "license": "MIT",
+  "main": "dist/b64u.js",
+  "module": "dist/b64u.m.js",
+  "typings": "dist/b64u.d.ts",
+  "source": "src/b64u.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "base64",
+    "base64url",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "microbundle -f es,cjs --compress false --sourcemap false",
+    "precommit": "pretty-quick --staged",
+    "test": "ava"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.10",
+    "ava": "^0.25.0",
+    "husky": "^0.14.3",
+    "microbundle": "^0.4.4",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1",
+    "typescript": "^2.8.3"
+  }
+}
