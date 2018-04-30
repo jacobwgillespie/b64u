@@ -23,7 +23,9 @@
     "typescript"
   ],
   "scripts": {
-    "build": "microbundle -f es,cjs --compress false --sourcemap false",
+    "build": "yarn build:es && yarn build:cjs",
+    "build:es": "tsc --declaration --module es2015 --pretty && mv dist/b64u.js dist/b64u.m.js",
+    "build:cjs": "tsc --pretty",
     "precommit": "pretty-quick --staged",
     "test": "ava"
   },
@@ -37,7 +39,6 @@
     "@types/node": "^8.10.10",
     "ava": "^0.25.0",
     "husky": "^0.14.3",
-    "microbundle": "^0.4.4",
     "prettier": "^1.12.1",
     "pretty-quick": "^1.4.1",
     "typescript": "^2.8.3"
