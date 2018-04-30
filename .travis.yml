@@ -13,3 +13,12 @@ before_install:
 script:
 - yarn build
 - yarn test
+
+deploy:
+  provider: npm
+  email: jacobwgillespie@gmail.com
+  api_key:
+    secure: B8pqFXAYoHOaT/UlptDsUEDQ9c16d1ao0hhmYReFbG24YFl2KvhPBfSpBgld67i5ts4hKatfpmAFWn9JVY/8uZH84U7Zaml64sM4/qTkj5DoEsjzrGPLWNhn7C0mSn7fcaEGTOPGAX3kH7bUJ8eBFCTgQ9sBIVyLTs4P4GrZZm8G4a6fHERUwqHBOSO8MTGiXDg6Fns5cP3h2o2c74squLa52LLUP8N0R69jaRyP0w69nu49FTCTdHhkcQbKx08qdZ880pwEWcIGxsw2IUs4c9PJaalfGnglZEtHn0zFujc3uuCQbOKSLyjzT9w8aUuNhrxiSmkUvNkUMKBijtJihk6hAtruvjTSxAKudTREN6jvhZKNtSZLgGCKkc4O4IcN+JWYBRekDVDp6dRB6RcvjEhDqcjLEEGEzF81GGc/1UoZbLUvRQp6WlWMZrs+xxGh/E1+/nNcdVF8sd7ibDt6O4RuuNPFOABXeWxX8ZhU4AumHpyg99ZWjjlaADF3ts+7dQF4GcMSCXCOybOHEL4NlpxHZUZAS82kgY1OquEGfLOwFsksq6eH9g081vcNWq5sydGRUfmUxyGQ1lulzR7tEXcby8ggXcp03kTerMpV/9c/1vgglytDLv+iBsyywZl7fs/Hn4N60YhT7qV8P8FUM+FWoj9oagX6yxivjkvYzc4=
+  on:
+    tags: true
+    repo: jacobwgillespie/b64u
