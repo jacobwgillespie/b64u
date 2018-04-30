@@ -6,10 +6,9 @@
   "homepage": "https://github.com/jacobwgillespie/b64u",
   "repository": "git://github.com/jacobwgillespie/b64u.git",
   "license": "MIT",
-  "main": "dist/b64u.js",
+  "main": "index.js",
   "module": "dist/b64u.m.js",
   "typings": "dist/b64u.d.ts",
-  "source": "src/b64u.ts",
   "sideEffects": false,
   "files": [
     "dist",
