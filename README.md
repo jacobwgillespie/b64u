@@ -1,6 +1,6 @@
 # ⚡ b64u
 
-[![Build Status](https://travis-ci.org/jacobwgillespie/b64u.svg?branch=master)](https://travis-ci.org/jacobwgillespie/b64u)
+[![Build Status](https://img.shields.io/travis/jacobwgillespie/b64u/master.svg)](https://travis-ci.org/jacobwgillespie/b64u)
 [![npm](https://img.shields.io/npm/v/b64u.svg)](https://www.npmjs.com/package/b64u)
 [![npm](https://img.shields.io/npm/dm/b64u.svg)](https://www.npmjs.com/package/b64u)
 [![license](https://img.shields.io/github/license/jacobwgillespie/b64u.svg)](https://github.com/jacobwgillespie/b64u/blob/master/LICENSE)
