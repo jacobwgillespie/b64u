@@ -1,10 +1,10 @@
 # ⚡ b64u
 
-[![Build Status](https://img.shields.io/travis/jacobwgillespie/b64u/master.svg)](https://travis-ci.org/jacobwgillespie/b64u)
-[![npm](https://img.shields.io/npm/v/b64u.svg)](https://www.npmjs.com/package/b64u)
-[![npm](https://img.shields.io/npm/dm/b64u.svg)](https://www.npmjs.com/package/b64u)
-[![license](https://img.shields.io/github/license/jacobwgillespie/b64u.svg)](https://github.com/jacobwgillespie/b64u/blob/master/LICENSE)
-[![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)](https://www.typescriptlang.org/)
+[![Build Status](https://badgen.net/travis/jacobwgillespie/b64u/master)](https://travis-ci.org/jacobwgillespie/b64u)
+[![npm](https://badgen.net/npm/v/b64u)](https://www.npmjs.com/package/b64u)
+[![npm](https://badgen.net/npm/dm/b64u)](https://www.npmjs.com/package/b64u)
+[![license](https://badgen.net/github/license/jacobwgillespie/b64u)](https://github.com/jacobwgillespie/b64u/blob/master/LICENSE)
+[![Powered by TypeScript](https://badgen.net/badge/powered%20by/typescript/blue)](https://www.typescriptlang.org/)
 
 A tiny, lightweight module for encoding and decoding Base64 URLs ([RFC 4648](https://tools.ietf.org/html/rfc4648#section-5)). Supports TypeScript, but also works without it.
 
@@ -12,7 +12,7 @@ A tiny, lightweight module for encoding and decoding Base64 URLs ([RFC 4648](htt
 
 ## Requirements
 
-* NodeJS v4+
+- NodeJS v4+
 
 ## Installation
 
