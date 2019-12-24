@@ -22,14 +22,14 @@ function padString(input: string): string {
   return buffer.toString()
 }
 
-function encode(input: string | Buffer, encoding: string = 'utf8'): string {
+function encode(input: string | Buffer, encoding: BufferEncoding = 'utf8'): string {
   if (Buffer.isBuffer(input)) {
     return fromBase64(input.toString('base64'))
   }
   return fromBase64(Buffer.from(input, encoding).toString('base64'))
 }
 
-function decode(base64url: string, encoding: string = 'utf8'): string {
+function decode(base64url: string, encoding: BufferEncoding = 'utf8'): string {
   return Buffer.from(toBase64(base64url), 'base64').toString(encoding)
 }
 
@@ -52,9 +52,9 @@ function toBuffer(base64url: string): Buffer {
 }
 
 export interface Base64Url {
-  (input: string | Buffer, encoding?: string): string
-  encode(input: string | Buffer, encoding?: string): string
-  decode(base64url: string | Buffer, encoding?: string): string
+  (input: string | Buffer, encoding?: BufferEncoding): string
+  encode(input: string | Buffer, encoding?: BufferEncoding): string
+  decode(base64url: string | Buffer, encoding?: BufferEncoding): string
   toBase64(base64url: string | Buffer): string
   fromBase64(base64: string): string
   toBuffer(base64url: string): Buffer
