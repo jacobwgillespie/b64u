@@ -12,7 +12,7 @@ A tiny, lightweight module for encoding and decoding Base64 URLs ([RFC 4648](htt
 
 ## Requirements
 
-- NodeJS v4+
+- NodeJS 8+
 
 ## Installation
 
