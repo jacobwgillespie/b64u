@@ -1,6 +1,6 @@
 {
   "name": "b64u",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Tiny, lightweight module for encoding and decoding Base64 URLs",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/b64u",
